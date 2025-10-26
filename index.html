@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6 - JavaScript Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Assignment 6: JavaScript Basics</h1>
+            <h2>Marzhan Adilkhanova - Group MT-2405</h2>
+        </header>
+
+        <section id="task0" class="card">
+            <h3>Task 0: First Script</h3>
+            <button onclick="task0()">Run Script</button>
+        </section>
+
+        <section id="task1" class="card">
+            <h3>Task 1: Variables & Operators</h3>
+            <button onclick="task1()">Show Results</button>
+            <p id="result1"></p>
+        </section>
+
+        <section id="task2" class="card">
+            <h3>Task 2: Changing Content</h3>
+            <p id="text">This is the original paragraph.</p>
+            <button onclick="changeText()">Change Text</button>
+        </section>
+
+        <section id="task3" class="card">
+            <h3>Task 3: Changing Styles</h3>
+            <div id="styleBox">This is a style box.</div>
+            <button onclick="changeBackground()">Change Background</button>
+            <button onclick="changeFontSize()">Change Font Size</button>
+        </section>
+
+        <section id="task4" class="card">
+            <h3>Task 4: Creating & Removing Elements</h3>
+            <ul id="itemList"></ul>
+            <button onclick="addItem()">Add Item</button>
+            <button onclick="removeItem()">Remove Item</button>
+        </section>
+
+        <section id="task5" class="card">
+            <h3>Task 5: Mouse Events</h3>
+            <div id="colorBox">Hover over me!</div>
+        </section>
+
+        <section id="task6" class="card">
+            <h3>Task 6: Keyboard Events</h3>
+            <input type="text" id="textInput" placeholder="Type something...">
+            <p id="displayText"></p>
+        </section>
+
+        <section id="task7" class="card">
+            <h3>Task 7: Form Validation</h3>
+            <form id="validationForm">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+                <input type="password" id="password" placeholder="Password">
+                <button type="submit">Submit</button>
+            </form>
+            <p id="errorMsg"></p>
+        </section>
+
+        <section id="task8" class="card">
+            <h3>Task 8: To-Do List</h3>
+            <div class="todo">
+                <input type="text" id="taskInput" placeholder="Enter a task">
+                <button onclick="addTask()">Add Task</button>
+                <ul id="taskList"></ul>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
